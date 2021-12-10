@@ -396,5 +396,3 @@ history = model.fit(train_gen,
                     validation_data=valid_generator,
                     validation_steps=len(df_val) / batchSIZE, verbose=2)
 plotAcuracy_Loss(history)
-
-model.evaluate(train_gen, batch_size=batchSIZE, verbose=2)
