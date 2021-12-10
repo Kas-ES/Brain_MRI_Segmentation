@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/archive(2).zip
+/archive(1).zip
+/lgg-mri-segmentation/
+/kaggle_3m/
+/simple_unet_imageGenerator/
